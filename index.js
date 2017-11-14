@@ -1,4 +1,4 @@
-class User {
+class BoardMember {
   constructor(name, homeState, training){
     this.name = name;
     this.homeState = homeState;
@@ -8,7 +8,7 @@ class User {
   veto() {
     return `No, I must disagree`
   }
-  approve() { 
+  approve() {
     return `You can do that!`
 }
   doCharity() {
